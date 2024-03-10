@@ -1,0 +1,7 @@
+---
+- name: Play with debug module.
+  hosts: localhost 
+  tasks: 
+    - name: Print local msg
+      debug: 
+        msg: "hello user" 
